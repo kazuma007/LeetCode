@@ -1,8 +1,11 @@
 // Reverse Integer
 // https://leetcode.com/submissions/detail/458256738/
-package easy
+package main
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 func reverse(x int) int {
 	if x < 0 {
@@ -22,4 +25,8 @@ func reverseInt(x int) int {
 		return 0
 	}
 	return ans
+}
+
+func main() {
+	fmt.Println(reverse(123))
 }
