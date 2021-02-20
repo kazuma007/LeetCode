@@ -5,13 +5,13 @@ import "math"
 
 func reverse(x int) int {
     if x < 0 {
-        return -(roop_int(-x))
+        return -(reverseInt(-x))
     } else {
-        return roop_int(x)
+        return reverseInt(x)
     }
 }
 
-func roop_int(x int) int {
+func reverseInt(x int) int {
     ans := 0
     for x > 0 {
         ans = ans*10 + x%10
