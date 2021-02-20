@@ -32,5 +32,5 @@ func romanToInt(s string) int {
 }
 
 func main() {
-	fmt.Println(romanToInt("XXX"))
+	fmt.Println(romanToInt("IXV"))
 }
