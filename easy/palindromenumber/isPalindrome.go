@@ -1,3 +1,5 @@
+// https://leetcode.com/submissions/detail/458327329/
+
 package main
 
 import (
@@ -10,7 +12,6 @@ func isPalindrome(x int) bool {
 	slice := strings.Split(strconv.Itoa(x), "")
 	for i := 0; i < len(slice); i++ {
 		if slice[i] != slice[len(slice)-i-1] {
-			fmt.Println(slice[i])
 			return false
 		}
 	}
