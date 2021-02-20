@@ -1,5 +1,6 @@
-// Two Sum
-// https://leetcode.com/submissions/detail/458169746/
+package main
+
+import "fmt"
 
 func twoSum(nums []int, target int) []int {
 	for i := range nums {
@@ -10,4 +11,8 @@ func twoSum(nums []int, target int) []int {
 		}
 	}
 	return []int{}
+}
+
+func main() {
+	fmt.Println(twoSum([]int{1, 2, 3}, 3))
 }
