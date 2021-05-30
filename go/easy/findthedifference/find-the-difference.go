@@ -1,3 +1,5 @@
+// https://leetcode.com/submissions/detail/500242165/
+
 package main
 
 import "fmt"
